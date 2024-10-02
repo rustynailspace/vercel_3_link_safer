@@ -8,7 +8,7 @@
     ],
     "routes": [
       {
-        "src": "/api/check-url",
+        "src": "src": "/(.*)",
         "dest": "api/check-url.js"
       }
     ]
