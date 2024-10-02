@@ -15,7 +15,7 @@ app.post("/check-url", async (req, res) => {
             null,
             {
                 params: {
-                    apikey: "73e41c99-3f41-4a25-9d99-3893966c5e45", // Replace with your VirusTotal API key
+                    apikey: "process.env.VIRUSTOTAL_API_KEY", // Replace with your VirusTotal API key
                     resource: url,
                 },
             },
